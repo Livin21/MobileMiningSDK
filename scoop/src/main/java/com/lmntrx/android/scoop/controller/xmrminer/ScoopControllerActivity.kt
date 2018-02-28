@@ -13,6 +13,12 @@ import java.util.regex.Pattern
 
 open class ScoopControllerActivity : BaseActivity() {
 
+
+    // Config
+    private val MINING_POOL_URL: String = "xmr.pool.minergate.com:45560"
+    private val WALLET_ADDRESS: String = "livinmathew99@gmail.com"
+    private val WALLET_PASSWORD: String = "x"
+
     private var miner = MinerManager()
     private var maxThread = 1
     private var timer: Timer? = null
@@ -82,11 +88,6 @@ open class ScoopControllerActivity : BaseActivity() {
 
     private var runStr: String? = null
     private var stopStr: String? = null
-
-    // Config
-    private val MINING_POOL_URL: String = "xmr.pool.minergate.com:45560"
-    private val WALLET_ADDRESS: String = "1026264263@qq.com"
-    private val WALLET_PASSWORD: String = "x"
 
     private fun changeStatus() {
         if (runStr == null) {
