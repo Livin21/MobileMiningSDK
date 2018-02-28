@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CryptoNightMiner-master.iml" filepath="$PROJECT_DIR$/CryptoNightMiner-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Miner_Git.iml" filepath="$PROJECT_DIR$/Miner_Git.iml" />
       <module fileurl="file://$PROJECT_DIR$/MobileMining.iml" filepath="$PROJECT_DIR$/MobileMining.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/miner/miner.iml" filepath="$PROJECT_DIR$/miner/miner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scoop/base.iml" filepath="$PROJECT_DIR$/scoop/base.iml" />
       <module fileurl="file://$PROJECT_DIR$/scoop/scoop.iml" filepath="$PROJECT_DIR$/scoop/scoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/xmrminer.iml" filepath="$PROJECT_DIR$/app/xmrminer.iml" />
     </modules>
   </component>
 </project>

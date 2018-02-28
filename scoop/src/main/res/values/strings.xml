@@ -1,24 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Scoop</string>
-    <string name="number_of_threads_2">Number of threads: 2</string>
-    <string name="turn_off_mining">Turn Off Mining</string>
-    <string name="show_stats">Show Stats</string>
-    <string name="_49_mh_s">49 MH/s</string>
-    <string name="number_of_threads_update">Number of threads: %s</string>
     <string name="thread">Thread</string>
     <string name="speed">Speed</string>
-    <string name="hashes_s">Hashes/s</string>
+    <string name="run">Run</string>
+    <string name="stop">Stop</string>
+    <string name="hashes_s">Hashes/S</string>
     <string name="total">Total</string>
     <string name="accepted">Accepted</string>
-    <string name="run">Run</string>
-    <string name="cpu_match">cpu[0-9]</string>
+    <string name="cpu_match">cpu[0–9]</string>
 
-    <string name="digit_letterAndNum">0123456789qwertyuioplkjhgfdsazxcvbnm</string>
-    <string name="net_connect_timeout">Timeout</string>
-    <string name="data_parse_exception">Parse Error</string>
-
-    <string name="url_tip">URL can not be empty</string>
-    <string name="user_tip">User/Wallet address can not be empty</string>
-    <string name="pwd_tip">Password can not be empty</string>
-    <string name="stop">Stop</string>
 </resources>

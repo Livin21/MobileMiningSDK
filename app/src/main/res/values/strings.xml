@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Mobile Mining</string>
+    <string name="app_name">XMRMiner</string>
+    <string name="thread">Thread</string>
+    <string name="speed">Speed</string>
+    <string name="run">Run</string>
+    <string name="stop">Stop</string>
+    <string name="hashes_s">Hashes/S</string>
+    <string name="total">Total</string>
+    <string name="accepted">Accepted</string>
+    <string name="cpu_match">cpu[0-9]</string>
+
 </resources>
+

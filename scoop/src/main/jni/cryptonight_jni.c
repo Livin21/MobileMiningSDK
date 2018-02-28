@@ -2,7 +2,7 @@
 #include "cryptonight.c"
 
 JNIEXPORT void
-JNICALL Java_com_cpf_cryptonight_Miner_fastHash(JNIEnv *env, jobject j, jbyteArray input,
+JNICALL Java_com_lmntrx_android_scoop_controller_cryptonight_Miner_fastHash(JNIEnv *env, jobject j, jbyteArray input,
                                                 jbyteArray output) {
 
     unsigned char *inputBuffer = (unsigned char *) (*env)->GetByteArrayElements(env, input, NULL);
