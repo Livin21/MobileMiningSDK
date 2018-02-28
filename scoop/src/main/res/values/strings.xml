@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Scoop</string>
     <string name="number_of_threads_2">Number of threads: 2</string>
+    <string name="turn_off_mining">Turn Off Mining</string>
+    <string name="show_stats">Show Stats</string>
+    <string name="_49_mh_s">49 MH/s</string>
 </resources>

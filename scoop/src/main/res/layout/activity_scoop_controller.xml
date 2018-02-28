@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,6 +7,13 @@
     android:gravity="center"
     tools:context="com.lmntrx.android.scoop.ScoopControllerActivity">
 
+    <TextView
+        android:id="@+id/hashesPerSecondTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="@string/_49_mh_s"/>
 
     <TextView
         android:id="@+id/noThreadsTextView"
@@ -15,6 +21,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20sp"
+        android:layout_marginTop="16dp"
         android:text="@string/number_of_threads_2"/>
 
     <SeekBar
@@ -29,5 +36,23 @@
         android:hapticFeedbackEnabled="true"
         android:scrollbarSize="5dp"
         android:progress="2" />
+
+    <Button
+        android:id="@+id/turnOffMiningButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/turn_off_mining"/>
+
+    <Button
+        android:id="@+id/showStatsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/show_stats"/>
 
 </LinearLayout>
